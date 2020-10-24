@@ -48,4 +48,14 @@
         text-decoration: none;
         margin-left: 45px;
     }
+    .button_wrap > button{
+        position: relative;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 15px;
+        font-size: 14px;
+        background: none;
+        left: 100%;
+        top: 49%;
+    }
 }
