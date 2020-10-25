@@ -14,16 +14,42 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1000px) {
     .menu_container{
         border-bottom: 2px solid black;
         font-family: 'Nanum Gothic', sans-serif;
+        margin-top: 2%;
     }
     .menu_container > .menu_wrap > img{
-        width: 13vw;
-        height: 3.3vh;
+        width: auto;
+        height: 3.8vh;
+        margin-left: 8%;
+        margin-bottom: 1.5%;
     }
-    
+    .menu_wrap{
+        display: flex;
+        font-size: 18px;
+    }
+    .menu_text{
+        margin-top: 0.5%;
+        margin-left: 8.2%;
+    }
+    .menu_text > a {
+        color: black;
+        font-style: none;
+        text-decoration: none;
+        margin-left: 45px;
+    }
+    .button_wrap > button{
+        position: relative;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 15px;
+        font-size: 14px;
+        background: none;
+        left: 100%;
+        top: 10%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
