@@ -93,12 +93,28 @@
         background-color: #7f99e2;
     }
     .ment_wrap{
+        position: absolute;
         color: #ffff;
+        margin-left: 20%;
+        margin-top: 9%;
     }
     .main_ment{
+        font-weight: 500;
         font-size: 36px;
     }
     .sub_ment{
+        position: absolute;
+        margin-top: 30px;
         font-size: 18px;
+    }
+    .available_os{
+        position: absolute;
+        margin-top: 12.5%;
+        margin-left: 18%;
+    }
+    .notebook_wrap > img {
+        position: absolute;
+        left: 33%;
+        top: -24%;
     }
 }
