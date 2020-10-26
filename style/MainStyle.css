@@ -99,11 +99,12 @@
         position: absolute;
         color: #ffff;
         margin-left: 20%;
-        margin-top: 9%;
+        margin-top: 8%;
     }
     .main_ment{
         font-weight: 500;
         font-size: 36px;
+        line-height: 60px;
     }
     .sub_ment{
         position: absolute;
@@ -112,7 +113,7 @@
     }
     .available_os{
         position: absolute;
-        margin-top: 12.5%;
+        margin-top: 13.8%;
         margin-left: 18%;
     }
     .notebook_wrap > img {
