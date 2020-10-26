@@ -195,7 +195,7 @@
     }
     .main_ment_2{
         position: absolute;
-        font-weight: 500;
+        font-weight: bold;
         right: 30%;
         bottom: -2%;
         line-height: 60px;
@@ -208,8 +208,8 @@
     }
     .sub_ment_wrap{
         position: absolute;
-        font-size: 18px;
-        right: 32.5%;
+        font-size: 19px;
+        right: 32%;
         bottom: -12%;
     }
 }
