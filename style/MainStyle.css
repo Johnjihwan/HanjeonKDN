@@ -200,8 +200,8 @@
     }
     .main_ment_2{
         font-weight: bold;
-        right: 30%;
-        bottom: -2%;
+        bottom: -13%;
+        right: 26%;
         line-height: 60px;
     }
     .boldment_small{
@@ -212,7 +212,7 @@
     }
     .sub_ment_wrap{
         font-size: 19px;
-        right: 32%;
-        bottom: -12%;
+        right: 28%;
+        bottom: -25%;
     }
 }
