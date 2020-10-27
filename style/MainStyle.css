@@ -259,7 +259,7 @@
         margin-top: 8%;
     }
     .main_ment{
-        font-weight: 500;
+        font-weight: bold;
         font-size: 36px;
         line-height: 60px;
     }
@@ -312,13 +312,23 @@
         height: 830px;
         border-bottom: 1px solid black;
     }
+    .ment_wrap_sec3{
+        position: relative;
+        left: 23%;
+        top: 32%;
+    }
     .main_ment_wrap > span{
-        font-size: 36px;
-        font-weight: 600;
+        font-size: 38px;
+        font-weight: bold;
     }
     .sub_ment_wrap2 > span{
         position: absolute;
-        margin-top: 3.5%;
+        margin-top: 2%;
         font-size: 16px;
+    }
+    .bar_wrap{
+        position: relative;
+        left: 57%;
+        bottom: 14%;
     }
 }
