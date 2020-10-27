@@ -199,7 +199,6 @@
         margin-top: 3%;
     }
     .main_ment_2{
-        position: absolute;
         font-weight: bold;
         right: 30%;
         bottom: -2%;
@@ -212,7 +211,6 @@
         font-size: 36px;
     }
     .sub_ment_wrap{
-        position: absolute;
         font-size: 19px;
         right: 32%;
         bottom: -12%;
