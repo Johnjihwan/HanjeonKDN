@@ -9,12 +9,106 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 900px) {
-    
+@media only screen and (min-width: 768px) {
+    .menu_container{
+        font-family: 'Nanum Gothic', sans-serif;
+        margin-top: 2%;
+    }
+    .menu_container > .menu_wrap > img{
+        width: auto;
+        height: 2.8vh;
+        margin-left: 8%;
+        margin-bottom: 1.5%;
+    }
+    .menu_wrap{
+        display: flex;
+        font-size: 14px;
+    }
+    .menu_text{
+        margin-top: 0.5%;
+        margin-left: 8.2%;
+    }
+    .menu_text > a {
+        color: black;
+        font-style: none;
+        text-decoration: none;
+        margin-left: 45px;
+    }
+    .button_wrap > button{
+        position: relative;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 12px;
+        font-size: 12px;
+        background: none;
+        left: 60%;
+        top: 10%;
+    }
+    .section_blue_wrap{
+        width: 100%;
+        height: 700px;
+        background-color: #7f99e2;
+    }
+    .ment_wrap{
+        position: absolute;
+        color: #ffff;
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+    .main_ment{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 60px;
+    }
+    .sub_ment{
+        position: absolute;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .available_os{
+        position: absolute;
+        margin-top: 15.8%;
+        margin-left: 7%;
+    }
+    .notebook_wrap > img {
+        position: absolute;
+        left: 45%;
+        top: 15%;
+    }
+    .section2_white{
+        width: 100%;
+        height: 850px;
+        border-bottom: 2px solid black;
+    }
+    .energy_graph{
+        width: 750px;
+        height: 750px;
+        margin-top: 3%;
+        margin-left: -10%;
+    }
+    .main_ment_2{
+        position: absolute;
+        font-weight: 500;
+        right: 6%;
+        bottom: -2%;
+        line-height: 60px;
+    }
+    .boldment_small{
+        font-size: 14px;
+    }
+    .boldment_big{
+        font-size: 32px;
+    }
+    .sub_ment_wrap{
+        position: absolute;
+        font-size: 14px;
+        right: 15%;
+        bottom: -10%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1068px) {
     .menu_container{
         font-family: 'Nanum Gothic', sans-serif;
         margin-top: 2%;
@@ -117,10 +211,6 @@
     body{
         width: 100%;
         height: 6000px;
-    }
-    header{
-        position: relative;
-        z-index: 3;
     }
     .menu_container{
         font-family: 'Nanum Gothic', sans-serif;
