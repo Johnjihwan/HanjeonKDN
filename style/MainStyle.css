@@ -209,6 +209,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1400px) {
     body{
+        font-family: 'Nanum Gothic', sans-serif;
         width: 100%;
         height: 6000px;
     }
@@ -304,5 +305,20 @@
         font-size: 19px;
         right: 28%;
         bottom: -25%;
+    }
+    .section3_white{
+        background-color: #f2f4f9;
+        width: 100%;
+        height: 830px;
+        border-bottom: 1px solid black;
+    }
+    .main_ment_wrap > span{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .sub_ment_wrap2 > span{
+        position: absolute;
+        margin-top: 3.5%;
+        font-size: 16px;
     }
 }
