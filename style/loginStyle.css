@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 1000px;
+    height: 100%;
+    display: block;
+}
+form{
+    width: 700px;
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    text-align: center;
+    background-color: #999999;
+    padding: 40px;
+    width: 400px;
+    border-radius: 30px;
+}
+.logo_wrap > img{
+    width: 14vw;
+    height: auto;
+}
+.boot{
+    margin-top: 10%;
+}
+#submit{
+    width: 300px;
+}
