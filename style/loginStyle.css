@@ -9,7 +9,7 @@ section{
     display: block;
 }
 form{
-    width: 700px;
+    width: 720px;
     position: absolute;
     top: 30%;
     left: 33%;
@@ -17,10 +17,10 @@ form{
     background-color: #999999;
     padding: 40px;
     width: 400px;
-    border-radius: 30px;
+    border-radius: 35px;
 }
 .logo_wrap > img{
-    width: 14vw;
+    width: 250px;
     height: auto;
 }
 .boot{
@@ -28,4 +28,12 @@ form{
 }
 #submit{
     width: 300px;
+}
+.join{
+    margin-left: 20px;
+    color: rgb(33, 33, 33);
+}
+.find{
+    margin-left: 20px;
+    color: rgb(33, 33, 33);
 }
