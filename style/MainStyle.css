@@ -210,7 +210,6 @@
 @media only screen and (min-width: 1400px) {
     body{
         font-family: 'Nanum Gothic', sans-serif;
-        width: 100%;
         height: 6000px;
     }
     .menu_container{
@@ -259,7 +258,7 @@
         margin-top: 8%;
     }
     .main_ment{
-        font-weight: bold;
+        font-weight: bolder;
         font-size: 36px;
         line-height: 60px;
     }
