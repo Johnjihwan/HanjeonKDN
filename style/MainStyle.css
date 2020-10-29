@@ -333,21 +333,27 @@
         left: 45%;
         top: 18%;
     }
+    /* 섹션2 */
     .section2_white{
         width: 100%;
         height: 850px;
         border-bottom: 2px solid black;
     }
-    .energy_graph{
-        width: 750px;
-        height: 750px;
+    .graph_wrap{
         margin-left: 15%;
         margin-top: 3%;
     }
+    .energy_graph{
+        width: 750px;
+        height: 750px;
+    }
+    .ment_wrap_2{
+        position: relative;
+        right: 5%;
+        bottom: 40%;
+    }
     .main_ment_2{
         font-weight: bold;
-        bottom: -13%;
-        right: 26%;
         line-height: 60px;
     }
     .boldment_small{
@@ -356,11 +362,7 @@
     .boldment_big{
         font-size: 36px;
     }
-    .sub_ment_wrap{
-        font-size: 19px;
-        right: 28%;
-        bottom: -25%;
-    }
+    /* 섹션3 */
     .section3_white{
         background-color: #f2f4f9;
         width: 100%;
