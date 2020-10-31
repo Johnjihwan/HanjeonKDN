@@ -1,0 +1,33 @@
+.layer-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.layer-popup.show {
+    display: block;
+}
+.label{
+    color: black;
+    font-size: 13.5px;
+}
+.modal-dialog {
+    width: 350px;
+    margin: 40px auto;
+    background-color: #fff;
+}
+
+.modal-content {
+    padding: 10px 30px;
+    text-align: center;
+    line-height: 60px;
+}
+.logo_wrap > img{
+    width: 10vw;
+    height: 4vh;
+}

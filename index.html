@@ -25,36 +25,44 @@
                 </div>
                 <!-- 버튼 추가 -->
                 <div class="button_wrap">
-                    <button class="login">로그인</button>
+                    <button class="btn-open" href="#layer-popup">로그인</button>
                     <button class="join">회원가입</button>
                 </div>
             </div>
         </div>
     </header>
     <!-- 로그인 폼 도입 -->
-    <form>
-        <div class="logo_wrap">
-            <img src="img/Onsave_logo.png" alt="logo">
+    <div class="container">
+        <div class="layer-popup show" id="layer-popup">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form>
+                        <div class="logo_wrap">
+                            <img src="img/Onsave_logo.png" alt="logo">
+                        </div>
+                        <div class="boot">
+                            <div class="form-group">
+                                <label class="label" for="exampleInputEmail1">이메일 주소</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">이메일 형식으로 기입해주세요.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">비밀번호</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">비밀번호 저장</label>
+                                <a class="join">회원가입</a>
+                                <a class="find">비밀번호 찾기</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="boot">
-            <div class="form-group">
-                <label class="label" for="exampleInputEmail1">이메일 주소</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">이메일 형식으로 기입해주세요.</small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">비밀번호</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">비밀번호 저장</label>
-                <a class="join">회원가입</a>
-                <a class="find">비밀번호 찾기</a>
-            </div>
-            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
-        </div>
-    </form>
+    </div>
     <!-- 섹션 도입 -->
     <section>
         <!-- 전체 컨테이너 생성 -->
