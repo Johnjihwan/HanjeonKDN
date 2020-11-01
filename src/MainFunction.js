@@ -15,3 +15,14 @@ $(document).mouseup(function (e){
         LayerPopup.removeClass("show");
     }
 });
+//login value 가져오기.
+let emailValue;
+$('#exampleInputEmail1').keydown(function(){
+    emailValue = $('#exampleInputEmail1').val();
+    console.log(emailValue);
+});
+let pwValue;
+$('#exampleInputPassword1').keydown(function(){
+    pwValue = $('#exampleInputPassword1').val();
+    console.log(pwValue);
+})
