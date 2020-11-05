@@ -1,31 +1,20 @@
-html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
+html, body{
+    font-family: 'Nanum Gothic', sans-serif;
+    overflow-x: hidden;
+} /*x축으로 넘어가는 현상fix*/
+*{margin: 0;  padding: 0;}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    body{
-        font-family: 'Nanum Gothic', sans-serif;
-    }
     .menu_container{
         font-family: 'Nanum Gothic', sans-serif;
         margin-top: 2%;
@@ -92,6 +81,7 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         top: 15%;
     }
     .section2_white{
+        position: relative;
         width: 100%;
         height: 850px;
     }
@@ -101,11 +91,17 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         margin-top: 3%;
         margin-left: -10%;
     }
-    .main_ment_2{
+    .ment_wrap_2{
+        display: inline-block;
         position: absolute;
+        top:30%; left: 60%;
+    }
+    .main_ment_2{
+        display: inline-block;
+        /* position: absolute; */
         font-weight: 500;
-        right: 6%;
-        bottom: -2%;
+        /* right: 6%;
+        bottom: -2%; */
         line-height: 60px;
     }
     .boldment_small{
@@ -115,12 +111,10 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         font-size: 32px;
     }
     .sub_ment_wrap{
-        position: absolute;
         font-size: 14px;
-        right: 15%;
-        bottom: -10%;
     }
     .section3_white{
+        position: relative;
         background-color: #f2f4f9;
         width: 100%;
         height: 830px;
@@ -135,26 +129,18 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         font-weight: bold;
     }
     .sub_ment_wrap2 > span{
-        position: absolute;
         margin-top: 2.5%;
         font-size: 14px;
     }
     .bar_wrap{
-        position: relative;
-        left: 57%;
-        bottom: 14%;
+        position: absolute;
+        top:50%;  left: 57%;
+        transform: translateY(-50%);
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1068px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    body{
-        font-family: 'Nanum Gothic', sans-serif;
-    }
     .menu_container{
         font-family: 'Nanum Gothic', sans-serif;
         margin-top: 2%;
@@ -261,6 +247,7 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         top: 15%;
     }
     .section2_white{
+        position: relative;
         width: 100%;
         height: 850px;
     }
@@ -270,13 +257,20 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         margin-left: 1%;
         margin-top: 3%;
     }
-    .main_ment_2{
+    .ment_wrap_2{
+        display: inline-block;
         position: absolute;
+        top:30%; left: 60%;
+    }
+    .main_ment_2{
+        display: inline-block;
+        /* position: absolute; */
         font-weight: 500;
-        right: 15%;
-        bottom: -2%;
+        /* right: 15%;
+        bottom: -2%; */
         line-height: 60px;
     }
+
     .boldment_small{
         font-size: 18px;
     }
@@ -284,12 +278,10 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         font-size: 36px;
     }
     .sub_ment_wrap{
-        position: absolute;
         font-size: 18px;
-        right: 20%;
-        bottom: -12%;
     }
     .section3_white{
+        position: relative;
         background-color: #f2f4f9;
         width: 100%;
         height: 830px;
@@ -304,25 +296,19 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         font-weight: bold;
     }
     .sub_ment_wrap2 > span{
-        position: absolute;
         margin-top: 2.5%;
         font-size: 18px;
     }
     .bar_wrap{
-        position: relative;
-        left: 57%;
-        bottom: 14%;
+        position: absolute;
+        top:50%;  left: 57%;
+        transform: translateY(-50%);
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1400px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
     body{
-        font-family: 'Nanum Gothic', sans-serif;
         height: 6000px;
     }
     /* 헤더역영 */
@@ -436,14 +422,20 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         position: relative;
         left: 15%;
     }
+    .ment_wrap_2{
+        display: inline-block;
+        position: absolute;
+        top:30%; left: 60%;
+    }
     .main_ment_2{
-        right: 25%;
+        display: inline-block;
+        /* right: 25%; */
     }
     .sub_ment_wrap{
-        right: 28%;
     }
     /* 섹션3 */
     .section3_white{
+        position: relative;
         background-color: #f2f4f9;
         width: 100%;
         height: 830px;
@@ -458,13 +450,12 @@ html, body{overflow-x: hidden;} /*x축으로 넘어가는 현상fix*/
         font-weight: bold;
     }
     .sub_ment_wrap2 > span{
-        position: absolute;
         margin-top: 2.5%;
         font-size: 18px;
     }
     .bar_wrap{
-        position: relative;
-        left: 57%;
-        bottom: 14%;
+        position: absolute;
+        top:50%;  left: 57%;
+        transform: translateY(-50%);
     }
 }
