@@ -477,17 +477,17 @@ body, html{
     }
     .main_ment_wrap4 {
         margin-top: 8%;
-        margin-left: 5%;
+        margin-left: 6%;
     }
     .main_ment_wrap4 > span{
-        font-size: 50px;
+        font-size: 48px;
         font-weight: 500;
         color: #ffff;
     }
     .sub_meterial_wrap{
         margin-top: 5%;
         display: flex;
-        margin-left: 6%;
+        margin-left: 8%;
     }
     .sub_ment_headline > span {
         font-size: 28px;
@@ -496,7 +496,7 @@ body, html{
     }
     .sub_ment_small > span{
         color: #cccccc;
-        font-size: 25px;
+        font-size: 22px;
     }
     .sub_ment_small, .sub_ment_headline{
         margin-top: 8%;
