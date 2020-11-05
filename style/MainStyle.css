@@ -456,7 +456,7 @@ body, html{
     }
     .main_ment_wrap > span{
         font-size: 38px;
-        font-weight: bold;
+        font-weight: bolder;
     }
     .sub_ment_wrap2 > span{
         position: absolute;
@@ -470,7 +470,38 @@ body, html{
     }
     /* section 4 start */
     .section4_dark{
+        position: absolute;
         width: 100%;
         height: 880px;
+        background-color: #566798;
+    }
+    .main_ment_wrap4 {
+        margin-top: 8%;
+        margin-left: 5%;
+    }
+    .main_ment_wrap4 > span{
+        font-size: 50px;
+        font-weight: 500;
+        color: #ffff;
+    }
+    .sub_meterial_wrap{
+        margin-top: 5%;
+        display: flex;
+        margin-left: 6%;
+    }
+    .sub_ment_headline > span {
+        font-size: 28px;
+        font-weight: 600;
+        color: #ffff;
+    }
+    .sub_ment_small > span{
+        color: #cccccc;
+        font-size: 25px;
+    }
+    .sub_ment_small, .sub_ment_headline{
+        margin-top: 8%;
+    }
+    .sub_met2, .sub_met3{
+        margin-left: 15%;
     }
 }
