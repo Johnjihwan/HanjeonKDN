@@ -102,14 +102,16 @@ html, body{
         font-weight: 500;
         /* right: 6%;
         bottom: -2%; */
-        line-height: 60px;
+        /* line-height: 60px; */
     }
     .boldment_small{
         font-size: 14px;
+        line-height: 60px;
     }
     .boldment_big{
         font-size: 32px;
-    }
+        margin-bottom: 20px;
+    }   
     .sub_ment_wrap{
         font-size: 14px;
     }
@@ -268,7 +270,7 @@ html, body{
         font-weight: 500;
         /* right: 15%;
         bottom: -2%; */
-        line-height: 60px;
+        /* line-height: 60px; */
     }
 
     .boldment_small{
@@ -276,9 +278,13 @@ html, body{
     }
     .boldment_big{
         font-size: 36px;
+        margin-bottom: 20px;
     }
     .sub_ment_wrap{
         font-size: 18px;
+    }
+    .sub_ment_wrap > br{
+        height: 1px;
     }
     .section3_white{
         position: relative;
