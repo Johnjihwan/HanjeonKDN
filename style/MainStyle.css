@@ -504,4 +504,10 @@ body, html{
     .sub_met2, .sub_met3{
         margin-left: 15%;
     }
+    .footer_1{
+        position: relative;
+        width: 100%;
+        height: 770px;
+        background-color: #336666;
+    }
 }
