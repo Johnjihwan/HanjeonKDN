@@ -1,32 +1,21 @@
-body, html{
+html, body{
+    font-family: 'Nanum Gothic', sans-serif;
     overflow-x: hidden;
-}
+} /*x축으로 넘어가는 현상fix*/
+*{margin: 0;  padding: 0;}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    
+ 
 }
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     *{
         margin: 0;
         padding: 0;
-    }
-    body{
-        font-family: 'Nanum Gothic', sans-serif;
     }
     .menu_container{
         font-family: 'Nanum Gothic', sans-serif;
@@ -150,13 +139,6 @@ body, html{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1068px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    body{
-        font-family: 'Nanum Gothic', sans-serif;
-    }
     .menu_container{
         font-family: 'Nanum Gothic', sans-serif;
         margin-top: 2%;
@@ -318,14 +300,6 @@ body, html{
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1400px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    body{
-        font-family: 'Nanum Gothic', sans-serif;
-        height: 6000px;
-    }
     /* 헤더역영 */
     .menu_container{
         font-family: 'Nanum Gothic', sans-serif;
