@@ -627,6 +627,9 @@ html, body{
         height: 300px;
         background-color: #535353;
         color: #ffff;
+    }  
+    .footer_2_container{
+        position: relative;
     }
     .footer_menu{
         position: absolute;
@@ -634,9 +637,6 @@ html, body{
         height: 100px;
         margin-left: 20%;
         border-bottom: 1px solid #ffff;
-    }
-    .footer_2_container{
-        position: relative;
     }
     .footer_menu > ul{
         margin-top: 3%;
