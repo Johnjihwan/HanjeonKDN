@@ -1,0 +1,26 @@
+{
+  "name": "hanjeonkdn",
+  "version": "1.0.0",
+  "description": "<h3>팀원 및 역할</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnjihwan/HanjeonKDN.git"
+  },
+  "keywords": [
+    "kdn",
+    "node"
+  ],
+  "author": "ji hwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnjihwan/HanjeonKDN/issues"
+  },
+  "homepage": "https://github.com/Johnjihwan/HanjeonKDN#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
