@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'ChosunSm';
+    src: url('../fonts/ChosunSm.TTF');
+}
+@font-face{
+    font-family: 'ChosunNm';
+    src: url('../fonts/ChosunNm.ttf');
+}
+@font-face{
+    font-family: 'glyphicons-halflings-regular';
+    src: url('../fonts/glyphicons-halflings-regular.ttf');
+}
