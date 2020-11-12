@@ -37,12 +37,7 @@ p{font-size: 30px;}
 #winter-BG{background-image: url('../img/donateBG1.png');}
 #summer-BG{background-image: url('../img/donateBG2.png');}
 #donate-part{
-    position: relative;
-    padding: 8vw 14vw 8vw 16vw;
-}
-#donate-part p:nth-child(1n){
-    display: inline-block;
-    margin: 0 0 0 10%;
+    padding: 8vw 15vw 8vw 16vw;
 }
 #donate-part p:nth-child(2n){
     display: inline-block;
