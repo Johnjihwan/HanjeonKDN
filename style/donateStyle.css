@@ -1,19 +1,62 @@
-*{padding: 0; margin: 0; box-sizing: border-box; font-family: "ChosunSm";}
+*{padding: 0; margin: 0; box-sizing: border-box;}
 html, body{width:100%; height: 100%;}
+/*헤더 영역*/
+header{
+    position: fixed;
+    width: 100%;  height: 8%;
+    background: rgba(0, 0, 0, 30%);
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.menu-wrap{
+    display: flex;
+    height: 100%;
+    padding: 0 10vw;
+    align-items: center;
+    font-size: 18px;
+}
+.menu-text > a {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    margin-left: 45px;
+}
+/*섹션시작*/
+section{font-family: "ChosunSm";}
+section > section{
+    width: 100%;  height: 937px;
+    min-width: 1100px;
+    padding: 8vw 12vw;
+}
 h2{
     font-size: 60px;
     font-weight: normal;
     margin-bottom: 30px;
 }
 p{font-size: 30px;}
-#winter_BG, #summer_BG{
-    width: 100%;  height: 937px;
-    min-width: 1100px;
-    padding: 8vw 10vw;
+#winter-BG > p, #summer-BG > p{line-height: 130%;}
+#winter-BG{background-image: url('../img/donateBG1.png');}
+#summer-BG{background-image: url('../img/donateBG2.png');}
+#donate-part{
+    position: relative;
+    padding: 8vw 14vw 8vw 16vw;
 }
-#winter_BG{
-    background-image: url('../img/donateBG1.png');
+#donate-part p:nth-child(1n){
+    display: inline-block;
+    margin: 0 0 0 10%;
 }
-#summer_BG{
-    background-image: url('../img/donateBG2.png');
+#donate-part p:nth-child(2n){
+    display: inline-block;
+    margin: 5% 0 5% 48%;
+}
+.btn{
+    display: block;
+    font-size: 20px;
+    width: 200px;  height: 70px;
+    color: white;
+    background-color: rgb(184, 184, 184);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    margin: 100px auto;
 }

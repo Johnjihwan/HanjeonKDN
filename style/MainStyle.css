@@ -411,7 +411,7 @@ html, body{
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1400px) {
-    /* 헤더역영 */
+    /* 헤더영역 */
     .menu_container{
         font-family: 'Nanum Gothic', sans-serif;
         margin-top: 2%;
