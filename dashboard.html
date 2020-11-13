@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/dashboardStyle.css">
     <title>Document</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels/src/chartjs-plugin-labels.js"></script>
 </head>
 <body>
     <header>
-        <div></div>
+        <a href="/" class="logo-wrap">
+            <img src="img/Onsave_logo.png" alt="">
+        </a>
         <div class="my-info"></div>
         <div class="menu"></div>
     </header>
@@ -24,14 +29,22 @@
         </section>
         <section class="E-used-list-wrap">
             <div id="E-used-list">
-                <div class="E-used-unit">
-
+                <div class="E-used-item">
+                    <div class="E-used-item-text">
+                        <h3>1주차</h3>
+                        <p>10/4 ~ 10/10</p>
+                    </div>
+                    <div class="E-save-chart">
+                        <h4>애너지 목표</h4>
+                        <canvas id="one-week"></canvas>
+                    </div>
                 </div>
-                <div class="E-used-unit"></div>
-                <div class="E-used-unit"></div>
-                <div class="E-used-unit"></div>
+                <div class="E-used-item"></div>
+                <div class="E-used-item"></div>
+                <div class="E-used-item"></div>
             </div>
         </section>
     </main>
+    <script src="src/E_savePieChart.js"></script>
 </body>
 </html>
