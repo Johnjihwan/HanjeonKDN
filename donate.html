@@ -19,8 +19,8 @@
             </div>
         </div>
     </header>
-    <section>
-        <section id="winter-BG">
+    <section id="secf">
+        <section id="winter-BG" class="section_back">
             <h2>
                 에너지 빈곤 가정에게는<br>
                 너무나 자비 없는 겨울
@@ -31,7 +31,7 @@
                 에너지 빈곤 가정을 고통 받게 하였습니다.
             </p>
         </section>
-        <section id="summer-BG">
+        <section id="summer-BG" class="section_back">
             <h2>
                 에너지 빈곤 가정에게는<br>
                 너무나 가혹했던 이번 여름
@@ -42,7 +42,7 @@
                 에너지 빈곤 가정을 고통 받게 하였습니다.
             </p>
         </section>
-        <section id="donate-part">
+        <section id="donate-part" class="section_back">
             <p>우리가 흔히 휴가의 계절이라 하는 "여름"</p>
             <p>사랑하는 연인, 가족과 크리스마스를 기다리는 "겨울"은</p>
             <p>에너지 빈곤 가정에게는 그저 다신 오지 않았으면 하는</p>
@@ -50,13 +50,37 @@
             <p>더이상 땀 흘리지 않도록</p>
             <p>더이상 떨지 않도록 도와주세요</p>
             <div class="btn-wrap">
-                <button class="btn" type="button">후원하기</button>
+                <button class="btn" type="button" onclick="modal()">후원하기</button>
             </div>
             
         </section>
     </section>
+    <section id="s2" style="display: none;">
+        <h2 id="donate_mo">당신의 기부금</h2>
+        <section>
+          <form action="" id="form2">
+            <input type="text" id="number" value="20,000">
+            <button id="btn2" onclick="myFunction()">후원하기</button>
+          </form>
+        </section>
+      </section>
+      <script>
+          
+          function myFunction() {
+            alert("기부금이 전송되었습니다.");
+            history.go(0);
+          }
+          function modal() {
+            var con = document.getElementById("s2");
+                if (con.style.display == 'none') {
+                  con.style.display = 'block';
+                } else {
+                  con.style.display = 'none';
+                }
+            }
+      </script>
     <footer>
-
+        
     </footer>
 </body>
 </html>
