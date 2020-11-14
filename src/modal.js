@@ -7,3 +7,6 @@ $(".week-btn").click(function(){
     modal = $(this).siblings(".chartBar-modal-wrap");
     modal_display(true ,modal);
 })
+$(".chartBar-modal-wrap").click(function(){
+    modal_display(false, $(this));
+})
