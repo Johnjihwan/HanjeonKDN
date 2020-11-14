@@ -1,7 +1,7 @@
-const E_goal1 = document.querySelector("#one-week");
-const E_goal2 = document.querySelector("#two-week");
-const E_goal3 = document.querySelector("#three-week");
-const E_goal4 = document.querySelector("#four-week");
+const E_goal1 = document.querySelector("#one-week-pie");
+const E_goal2 = document.querySelector("#two-week-pie");
+const E_goal3 = document.querySelector("#three-week-pie");
+const E_goal4 = document.querySelector("#four-week-pie");
 const config1 = {
     type: 'pie',
     data: {
